@@ -1,0 +1,116 @@
+*{padding:0px ;
+	margin: 0px;
+
+}
+
+html{
+	
+	background-image: url(aviones.png);
+}
+
+body{width: 1000px;
+height: 1000px;
+background-color: orange;
+margin: auto;
+}
+
+header{
+width: 1000px;
+height: 200px;
+background-color: chocolate;
+
+}
+
+nav{
+width: 1000px;
+height: 50px;
+background-color: black;
+}
+
+main{ width: 1000px;
+height: 700px; }
+
+article{ height: 700px;
+
+width: 800px;
+background-color: cornflowerblue; 
+float: left;}
+
+aside{ height: 700px; 
+width: 200px;
+background-image: url(aside.jpg);
+float: left;}
+
+
+
+footer{height: 50px;
+width: 1000px;
+background-color: white;}
+
+
+nav a{text-decoration: none;
+color: aquamarine;
+font-size: 20px;
+font-family: tahoma;
+}
+
+
+nav li{
+	display: inline-block;
+	padding: 5px  20px;
+box-shadow: 0 0 10px #fff;
+color: gold;
+}
+
+
+
+nav li:hover{
+	background-color: #F6CEEC;
+	color: #000;
+	box-shadow: 0 0 20px pink;
+	transition: 0.5s;}
+
+
+	nav ul {
+		text-align: center;
+
+
+
+
+
+
+}
+/*Redes Sociales*/
+.RedesSociales{
+display: inline-block;
+width: 30px;
+height: 30px;
+margin-top: 5px;
+margin-left: 5px;
+border-radius: 50%;
+}
+
+.RedesSociales:hover:nth-child(1){
+	background-color: #1877f2;
+	box-shadow: 0 0 20px #fff;
+}
+
+.RedesSociales:hover:nth-child(2){
+	background-color: #2ECC71;
+	box-shadow: 0 0 20px #fff;
+}
+
+.RedesSociales:hover:nth-child(3){
+	background-color: #FF69B4;
+	box-shadow: 0 0 20px #fff;
+}
+
+.RedesSociales:hover:nth-child(4){
+	background-color: #AED6F1;
+	box-shadow: 0 0 20px #fff;
+}
+
+.RedesSociales:hover:nth-child(5){
+	background-color: #FF0000;
+	box-shadow: 0 0 20px #fff;
+}
